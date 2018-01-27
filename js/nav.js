@@ -8,13 +8,13 @@ $(document).ready(function(){
     // hide and show except this clicked
     $.each(unclickedItems,function(index,eachItem) {
       if($(eachItem) != $(this))
-        $(eachItem).show(300);
-        $(eachItem).next().hide(300);
+        $(eachItem).show(0);
+        $(eachItem).next().hide(0);
 
     })
 
     // this. hide and show
-    $(this).hide(300);
+    $(this).hide(0);
     $(this).next().show('hide-navContent');
 
     // midContent Display
@@ -60,6 +60,8 @@ $(document).ready(function(){
     $('.sidebar').toggleClass("sidebarActive");
     $(this).toggleClass("sidebarBtnActive");
   });
+
+  $('.introBtn')
 
 
   // GET MID Content
