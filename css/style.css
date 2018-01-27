@@ -1,0 +1,189 @@
+*{
+  background: #CCCEC9;
+  padding: 0px;
+  margin: 0px;
+  font-family:'pinghei';
+}
+
+/* NAVIGATION CSS */
+nav .nav-vertical{
+  position: absolute;
+  /* background: grey; */
+  height: 100%;
+  width: 60px;
+  border-right: 1px solid #C6C3BE;
+}
+
+nav .nav-menu{
+  width: 250px;
+  position: absolute;
+  left: 70px;
+  top: 70px;
+}
+
+nav .menu-state{
+  padding-left: 5px;
+}
+
+nav #logo{
+  padding-left: 5px;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+nav .raylin-mark{
+  padding-bottom: 20px;
+  font-size: 13px;
+  padding-left: 5px;
+}
+
+nav .raylin-description{
+  padding-bottom: 20px;
+  font-size: 10px;
+  padding-left: 5px;
+  color: grey;
+}
+
+nav .raylin-slogan{
+  padding: 10px;
+  font-size: 13px;
+  padding-left: 5px;
+  color: white;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+nav .menu-state{
+  margin: 10px 0px;
+  font-size: 15px;
+  font-family: Bradley Hand;
+}
+
+nav .menu-clicked{
+  height: 40px;
+  color: #BF252A;
+  font-size: 15px;
+  padding-top: 20px;
+}
+
+nav .menu-clicked a{
+  height: 40px;
+  color: #BF252A;
+  text-decoration: none;
+}
+
+nav .menu-unclicked{
+  text-decoration:none;
+  color: #888888;
+}
+
+nav .menu-unclicked:hover{
+  color: white;
+}
+
+.menu-linebreak{
+  background-color:#85837F;
+  width: 120px;
+  height: 1px;
+}
+
+.hide-navContent{
+  display: none;
+}
+
+
+
+
+/* SIDEBAR CSS */
+.sidebar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: #efefef;
+  width: 250px;
+  height: 100%;
+
+  /* transition:  */
+}
+
+.sidebar ul{
+  list-style-type: none;
+  margin: 40px 0px 10px 30px;
+  width: 100%;
+  background: #efefef;
+}
+
+.sidebar>ul>li{
+  background: #efefef;
+  padding: 10px 0px 10px 10px;
+}
+
+.sidebar>ul>li>ul{
+    list-style-type: none;
+    margin: 20px 0px 10px 10px;
+}
+
+.sidebar ul a{
+  background: #efefef;
+  text-decoration: underline;
+  display: block;
+  padding: 6px 20px;
+  color: black;
+  font-size: 12px;
+}
+
+.sidebar a:hover{
+  color: grey;
+}
+
+.sidebar img{
+  float: left;
+  background:#efefef;
+  height: 22px;
+  margin-right: 9px;
+}
+
+.sidebarBtn{
+  position: absolute;
+  top: 40%;
+  right: 250px;
+  width: 18px;
+  height: 30px;
+  box-sizing: border-box;
+  cursor:pointer;
+  background: black;
+  border: none;
+  border-top-left-radius: 100%;
+  border-bottom-left-radius: 100%;
+}
+
+.sidebarBtn span{
+  display: block;
+  width: 18px;
+  height: 3px;
+  background:
+  position: absolute;
+  top: 24px;
+}
+
+.sidebarActive{
+  width: 0px;
+}
+
+.sidebarBtnActive{
+  right:0px;
+}
+
+
+/* Midpage Content */
+
+.midContent{
+  width: 35%;
+  padding: 33px;
+  border: 1px solid red;
+  margin-top: 20%;
+  margin-left: 350px;
+}
