@@ -26,8 +26,8 @@ nav .menu-state{
 }
 
 nav #logo{
-  padding-left: 5px;
-  font-size: 40px;
+  padding-left: 2px;
+  font-size: 50px;
   margin-bottom: 20px;
 }
 
@@ -105,7 +105,7 @@ nav .menu-unclicked:hover{
   background: #efefef;
   width: 250px;
   height: 100%;
-
+  z-index: 2;
   /* transition:  */
 }
 
@@ -180,10 +180,33 @@ nav .menu-unclicked:hover{
 
 /* Midpage Content */
 
-.midContent{
-  width: 35%;
-  padding: 33px;
+#midContent{
+  width: 40%;
+  padding: 30px;
   border: 1px solid red;
-  margin-top: 20%;
-  margin-left: 350px;
+  margin-top: 10%;
+  margin-left: 30%;
+  height: 100%
+  display: block;
+  position: relative;
+}
+
+#midContent .home, .honghulin,
+.projects, .blogs, .tags{
+  display: none;
+}
+
+.introParagraph{
+  margin-bottom: 60px;
+  margin-right: 5%;
+  text-align: justify;
+}
+
+.introBtn{
+  width: 70px;
+  height: 30px;
+  background-color: #FFFFE0;
+  background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+  float: right;
+  margin-right: 6%;
 }
