@@ -1,42 +1,27 @@
 [
   {
     "menuItem":"home",
-    "paragraph":"1级DOM标准中并没有定义事件相关的内容，
-                所以没有 所谓的1级DOM事件模型
-                。在2级DOM中除了定义了 一些D OM相关的操作之
-                外还定义了一个事 件模型 ，
-                这个标准下的事件模型就是我们所说的2级DOM事件模型"
+    "menuTitle":"Hi, Welcome to my My Website!",
+    "paragraph":"<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>"
   },
   {
     "menuItem":"honghulin",
-    "paragraph":"1级DOM标准中并没有定义事件相关的内容，
-                所以没有 所谓的1级DOM事件模型
-                。在2级DOM中除了定义了 一些D OM相关的操作之
-                外还定义了一个事 件模型 ，
-                这个标准下的事件模型就是我们所说的2级DOM事件模型"
+    "menuTitle":"Who am I? ",
+    "paragraph":"<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>"
   },
   {
     "menuItem":"projects",
-    "paragraph":"1级DOM标准中并没有定义事件相关的内容，
-                所以没有 所谓的1级DOM事件模型
-                。在2级DOM中除了定义了 一些D OM相关的操作之
-                外还定义了一个事 件模型 ，
-                这个标准下的事件模型就是我们所说的2级DOM事件模型"
+    "menuTitle":"Some Projects..",
+    "paragraph":"1级DOM标准中并没有定义事件相关的内容，所以没有 所谓的1级DOM事件模型。在2级DOM中除了定义了 一些D OM相关的操作之外还定义了一个事 件模型 ，这个标准下的事件模型就是我们所说的2级DOM事件模型"
   },
   {
     "menuItem":"blogs",
-    "paragraph":"1级DOM标准中并没有定义事件相关的内容，
-                所以没有 所谓的1级DOM事件模型
-                。在2级DOM中除了定义了 一些D OM相关的操作之
-                外还定义了一个事 件模型 ，
-                这个标准下的事件模型就是我们所说的2级DOM事件模型"
+    "menuTitle":"Learning is Interesting!",
+    "paragraph":"<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>"
   },
   {
     "menuItem":"tags",
-    "paragraph":"1级DOM标准中并没有定义事件相关的内容，
-                所以没有 所谓的1级DOM事件模型
-                。在2级DOM中除了定义了 一些D OM相关的操作之
-                外还定义了一个事 件模型 ，
-                这个标准下的事件模型就是我们所说的2级DOM事件模型"
+    "menuTitle":"T . A . G . S",
+    "paragraph":"<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>"
   }
 ]

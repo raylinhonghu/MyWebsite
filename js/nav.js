@@ -1,4 +1,13 @@
 $(document).ready(function(){
+  var items = [];
+  // get midContent
+  $.getJSON("https://api.myjson.com/bins/h0lj9",function(data){
+    $.each(data, function(key,val) {
+      items.push(val);
+    });
+    console.log(items);
+  });
+
   var unclickedItems = $('.menu-unclicked');
 
   // menu interaction
@@ -23,28 +32,39 @@ $(document).ready(function(){
         $('.home').show(0);$('.honghulin').hide(0);
         $('.projects').hide(0);$('.blogs').hide(0);
         $('.tags').hide(0);
+        $('.home .introTitle').append(items[0].menuTitle);
+        $('.home .introParagraph').append(items[0].paragraph);
         break;
       case  "honghulin":
         $('.honghulin').show(0);$('.home').hide(0);
         $('.projects').hide(0);$('.blogs').hide(0);
         $('.tags').hide(0);
+        $('.honghulin .introTitle').append(items[1].menuTitle);
+        $('.honghulin .introParagraph').append(items[1].paragraph);
         break;
       case  "projects":
         $('.projects').show(0);$('.honghulin').hide(0);
         $('.home').hide(0);$('.blogs').hide(0);
         $('.tags').hide(0);
+        $('.projects .introTitle').append(items[2].menuTitle);
+        $('.projects .introParagraph').append(items[2].paragraph);
         break;
       case  "blogs":
         $('.blogs').show(0);$('.honghulin').hide(0);
         $('.home').hide(0);$('.projects').hide(0);
         $('.tags').hide(0);
+        $('.blogs .introTitle').append(items[3].menuTitle);
+        $('.blogs .introParagraph').append(items[3].paragraph);
         break;
       case  "tags":
         $('.tags').show(0);$('.honghulin').hide(0);
         $('.home').hide(0);$('.projects').hide(0);
         $('.blogs').hide(0);
+        $('.tags .introTitle').append(items[4].menuTitle);
+        $('.tags .introParagraph').append(items[4].paragraph);
         break;
     }
+
 
   });
 
@@ -61,20 +81,6 @@ $(document).ready(function(){
     $(this).toggleClass("sidebarBtnActive");
   });
 
-  $('.introBtn')
-
-
-  // GET MID Content
-  // $.ajax({
-  //   type:"GET",
-  //   url: "https://github.com/raylinhonghu/MyWebsite/blob/master/json/midContent.json",
-  //   success:function(data){
-  //     console.log(data[0].name);
-  //   },
-  //   error:function(jqXHR,textStatus,error){
-  //     console.log(error);
-  //   }
-  // })
 
 
 });
