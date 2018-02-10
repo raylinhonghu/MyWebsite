@@ -6,10 +6,12 @@
     <meta name="description" content="Affordable and professional web design">
     <meta name="keywords" content="web design, Affordable web design, professional web desgin">
     <meta name="author" content="Honghu Lin">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Ray Lin</title>
   </head>
-  <body>
+  <body style="background:#CCCEC9">
     <nav>
       <div>
         <div class="nav-vertical"></div>
@@ -28,15 +30,15 @@
           </div>
           <div class="raylin-slogan">
             What Can A Sparrow <br/> Understand The Will Of A Swan?<br>
-            燕雀安知<span style="font-size:18px">&nbsp鸿鹄&nbsp</span>之志哉？
+            燕雀安知鸿鹄之志哉？
           </div>
           <ul>
             <!-- home -->
             <div class="menu-state">
-              <div class="menu-unclicked" name="1">
+              <div class="menu-unclicked" name="home">
                 Home
               </div>
-              <div class="hideNav-wrapper hide-navContent name="2"">
+              <div class="hideNav-wrapper hide-navContent">
                 <div class="menu-linebreak"></div>
                 <div class="menu-clicked">
                     <a href="#">WHAT DO U WANNA KNOW</a>
@@ -46,10 +48,10 @@
             </div>
             <!-- honghu lin -->
             <div class="menu-state">
-              <div class="menu-unclicked name="1"">
+              <div class="menu-unclicked" name="honghulin">
                 Honghu Lin
               </div>
-              <div class="hideNav-wrapper hide-navContent name="2"">
+              <div class="hideNav-wrapper hide-navContent">
                 <div class="menu-linebreak"></div>
                 <div class="menu-clicked">
                   <a href="#">ABOUT RAY</a>
@@ -59,10 +61,10 @@
             </div>
             <!-- projects -->
             <div class="menu-state">
-              <div class="menu-unclicked name="1"">
+              <div class="menu-unclicked" name="projects">
                 Projects
               </div>
-              <div class="hideNav-wrapper hide-navContent name="2"">
+              <div class="hideNav-wrapper hide-navContent">
                 <div class="menu-linebreak"></div>
                 <div class="menu-clicked">
                   <a href="#">PROJECTS</a>
@@ -72,10 +74,10 @@
             </div>
             <!-- blogs -->
             <div class="menu-state">
-              <div class="menu-unclicked name="1"">
+              <div class="menu-unclicked" name="blogs">
                 Blogs
               </div>
-              <div class="hideNav-wrapper hide-navContent name="2"">
+              <div class="hideNav-wrapper hide-navContent">
                 <div class="menu-linebreak"></div>
                 <div class="menu-clicked">
                   <a href="#"> BLOGS</a>
@@ -85,13 +87,13 @@
             </div>
             <!-- tags -->
             <div class="menu-state">
-              <div class="menu-unclicked name="1"">
+              <div class="menu-unclicked" name="tags">
                 Tags
               </div>
-              <div class="hideNav-wrapper hide-navContent" name="2">
+              <div class="hideNav-wrapper hide-navContent">
                 <div class="menu-linebreak"></div>
                 <div class="menu-clicked">
-                  <a href="#">TAGS</a>
+                  <a href="./tags.html">TAGS</a>
                 </div>
                 <div class="menu-linebreak"></div>
               </div>
@@ -123,6 +125,12 @@
             <li><img src="img/codepen.svg"/><a href="#">CODEPEN</a></li>
           </ul>
         </li>
+        <li>Q & A ONLINE
+          <ul>
+            <li><img src="img/sf.jpg"/><a href="#">SEGMENTFAULT</a></li>
+            <li><img src="img/zhihu.png"/><a href="#">ZHIHU</a></li>
+          </ul>
+        </li>
         <li>CONTACT
           <ul>
             <li><img src="img/gmail.svg"/><a href="#">EMAIL</a></li>
@@ -133,15 +141,18 @@
         <span></span>
       </button>
     </div>
-    <!-- mid content -->
+
+    <!-- blog Content -->
     <div id="midContent">
-      <div class="blogs">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-      </div>
+
     </div>
+
     <!-- script for navigation -->
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/nav.js"></script>
+    <script src="js/blog.js"></script>
 
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
